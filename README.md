@@ -165,16 +165,17 @@ Example:
 ## Common Issues
 
 - When you click **"Load Images"**, first select your **image folder**, then select your **annotation folder** (where `.txt` files are).
-- 
+
 - It is normal for files to not appear in the selected folder. Just select the correct folder and proceed.
 
 - After saving the last image, the session ends. To go back and review your work, you must click **"Load Images"** again to restart the process from the beginning.
+
+- **Framework Dependency**: The tool's auto-detection is built directly on the ultralytics library. Therefore, it can only load and run models (.pt files) that were trained within or are compatible with the Ultralytics ecosystem.
 
 > **Note on Deletion:**
 > - **Right Click + Drag** will only delete annotation boxes that are **fully contained** within the selection area.
 > - **Shift + Right Click + Drag** will delete any annotation box that is **even partially touched** by the selection area.
 
-- **Framework Dependency**: The tool's auto-detection is built directly on the ultralytics library. Therefore, it can only load and run models (.pt files) that were trained within or are compatible with the Ultralytics ecosystem.
 
 
 ## Contributing
