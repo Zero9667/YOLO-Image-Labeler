@@ -1,0 +1,43 @@
+# Core Dependencies
+# Image processing library
+Pillow>=10.0.0
+
+# YOLO model support
+ultralytics>=8.0.0
+
+# Deep learning framework (required by ultralytics)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Computer vision library
+opencv-python>=4.8.0
+
+# Numerical computing
+numpy>=1.24.0
+
+# YAML configuration support (required by ultralytics)
+PyYAML>=6.0
+
+# Progress bars (used by ultralytics)
+tqdm>=4.65.0
+
+# HTTP requests (used by ultralytics for model downloads)
+requests>=2.31.0
+
+# Plotting and visualization (used by ultralytics)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Pandas for data handling (optional, used by ultralytics)
+pandas>=2.0.0
+
+# Additional ultralytics dependencies
+scipy>=1.10.0
+psutil>=5.9.0
+
+# Note: tkinter is included with Python standard library
+# If tkinter is not available on your system, install it using:
+# - Ubuntu/Debian: sudo apt-get install python3-tk
+# - Fedora: sudo dnf install python3-tkinter
+# - macOS: Usually pre-installed
+# - Windows: Usually pre-installed with Python
