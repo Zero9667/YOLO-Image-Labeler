@@ -164,11 +164,11 @@ Example:
 
 ## Common Issues
 
-**Q: Images or annotations not loading correctly?**
 - When you click **"Load Images"**, first select your **image folder**, then select your **annotation folder** (where `.txt` files are).
-- **Note:** It is normal for files to not appear in the selected folder. Just select the correct folder and proceed.
+- 
+- It is normal for files to not appear in the selected folder. Just select the correct folder and proceed.
 
-- **Note:** After saving the last image, the session ends. To go back and review your work, you must click **"Load Images"** again to restart the process from the beginning.
+- After saving the last image, the session ends. To go back and review your work, you must click **"Load Images"** again to restart the process from the beginning.
 
 > **Note on Deletion:**
 > - **Right Click + Drag** will only delete annotation boxes that are **fully contained** within the selection area.
