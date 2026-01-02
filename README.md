@@ -174,6 +174,9 @@ Example:
 > - **Right Click + Drag** will only delete annotation boxes that are **fully contained** within the selection area.
 > - **Shift + Right Click + Drag** will delete any annotation box that is **even partially touched** by the selection area.
 
+- **Framework Dependency**: The tool's auto-detection is built directly on the ultralytics library. Therefore, it can only load and run models (.pt files) that were trained within or are compatible with the Ultralytics ecosystem.
+
+
 ## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
